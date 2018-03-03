@@ -10,7 +10,7 @@
 	
 	// Email Receiver Address
 	$receiver="ronakmokashi@yahoo.co.in";
-	$subject="Contact form details";
+	$subject="Project Enquiry";
 
 	$message = "
 	<html>
