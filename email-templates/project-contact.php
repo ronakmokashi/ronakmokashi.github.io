@@ -9,7 +9,7 @@
 	$budget=$_POST["budget"];
 	
 	// Email Receiver Address
-	$receiver="info@yourdomain.com";
+	$receiver="ronakmokashi@yahoo.co.in";
 	$subject="Contact form details";
 
 	$message = "
@@ -20,7 +20,7 @@
 	<body>
 	<table width='50%' border='0' align='center' cellpadding='0' cellspacing='0'>
 	<tr>
-	<td colspan='2' align='center' valign='top'><img style=' margin-top: 15px; ' src='http://www.yourdomain.com/images/logo-email.png' ></td>
+	<td colspan='2' align='center' valign='top'><img style=' margin-top: 15px; ' src='ronakmokashi.github.io/images/logo-email.png' ></td>
 	</tr>
 	<tr>
 	<td width='50%' align='right'>&nbsp;</td>
@@ -38,10 +38,7 @@
 	<td align='right' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 5px 7px 0;'>Phone:</td>
 	<td align='left' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 0 7px 5px;'>".$phone."</td>
 	</tr>
-	<tr>
-	<td align='right' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 5px 7px 0;'>Budget:</td>
-	<td align='left' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 0 7px 5px;'>".$budget."</td>
-	</tr>
+	
 	<tr>
 	<td align='right' valign='top' style='border-top:1px solid #dfdfdf; border-bottom:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 5px 7px 0;'>Message:</td>
 	<td align='left' valign='top' style='border-top:1px solid #dfdfdf; border-bottom:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 0 7px 5px;'>".nl2br($comment)."</td>
